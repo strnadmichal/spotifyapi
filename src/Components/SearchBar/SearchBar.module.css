@@ -7,16 +7,13 @@ input {
     background-color: black;
     color: white;
     width: 30rem;
-    height: 3rem;
+    height: 80px;
     outline: none;
 
     font-family: "Martian Mono", monospace;
     font-size: 1.5rem;
     color: #ffff;
-}
+    box-sizing: border-box;
 
-input::placeholder {
-    font-family: "Martian Mono", monospace;
-    font-size: 1.5rem;
-    color: #ffff;
+    vertical-align: bottom;
 }

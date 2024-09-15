@@ -1,0 +1,20 @@
+.box {
+  border: 1px solid whitesmoke;
+  width: 85%;
+  color: white;
+  font-family: "Martian Mono", sans-serif;
+  font-size:2rem;
+  height: 65px;
+  padding: 15px; /* Add padding to give space around the content */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.artist {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
